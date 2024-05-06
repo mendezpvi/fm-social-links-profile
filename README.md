@@ -34,6 +34,8 @@ Users should be able to:
 
 [Live Site URL](https://mendezpvi.github.io/fm-social-links-profile/) 👀
 
+[Solution in Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-kH-ia7zF4y) 👀
+
 [Challenges overcome](https://github.com/mendezpvi/frontend-mentor-challenges) 👀
 
 ## *Built with* :hammer_and_pick:
@@ -46,5 +48,5 @@ Users should be able to:
 
 ## *Author* :beginner:
 
-- Frontend Mentor - [@mendezpvi](https://www.frontendmentor.io/profile/mendezpvi)
+✨ Frontend Mentor - [@mendezpvi](https://www.frontendmentor.io/profile/mendezpvi)
 
