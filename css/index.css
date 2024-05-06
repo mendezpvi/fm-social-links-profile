@@ -1,0 +1,109 @@
+body {
+  min-block-size: 100vh;
+  min-block-size: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-inter), sans-serif;
+  background-color: var(--off-black);
+  color: var(--white);
+}
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+  --ff-inter: 'Inter';
+}
+
+.card {
+  margin-top: 4rem;
+  padding: 2.5rem;
+  inline-size: 87.5vw;
+  max-inline-size: 24rem;
+  background-color: var(--dark-grey);
+  text-align: center;
+  border-radius: .75rem;
+}
+@media (width <= 400px) {
+  .card {
+    padding: 1.55rem;
+  }
+}
+.card__avatar {
+  inline-size: 5.5em;
+  block-size: 5.5rem;
+  border-radius: 50%;
+}
+.card__username {
+  margin-top: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card__city {
+  margin-top: .55rem;
+  font-size: .89rem;
+  color: var(--green);
+  font-weight: 600;
+}
+.card__intro {
+  margin-top: 1.77rem;
+  font-size: .87rem;
+  font-weight: 450;
+}
+
+.btn-wrapper {
+  margin-top: 1.65rem;
+  display: grid;
+  gap: .97rem;
+}
+.btn {
+  padding-block: .92rem;
+  background-color: var(--grey);
+  color: inherit;
+  border: none;
+  font-size: .9rem;
+  font-weight: 550;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.attribution {
+  margin-block: 1.5rem;
+  inline-size: fit-content;
+  font-size: .88rem;
+  font-weight: 350;
+  text-align: center;
+}
+.attribution__cta {
+  margin-inline: .2rem;
+  font-weight: 500;
+  text-underline-offset: .25rem;
+  text-decoration-thickness: .15rem;
+  color: var(--green);
+}
+
+*:focus-visible {
+  outline: .12rem dotted currentColor;
+  outline-offset: .2rem;
+}
+
+.attribution__cta:focus-visible {
+  text-decoration: none;
+}
+
+.btn:active {
+  background-color: var(--green);
+  color: var(--dark-grey);
+}
+
+@media (hover:hover) {
+  .btn:hover {
+    background-color: var(--green);
+    color: var(--dark-grey);
+  }
+}
