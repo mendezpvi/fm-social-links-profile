@@ -106,4 +106,7 @@ body {
     background-color: var(--green);
     color: var(--dark-grey);
   }
+  .attribution__cta:hover {
+    text-decoration: none;
+  }
 }
