@@ -22,8 +22,7 @@ body {
 .card {
   margin-top: 4rem;
   padding: 2.5rem;
-  inline-size: 87.5vw;
-  max-inline-size: 24rem;
+  inline-size: clamp(20.50rem, 87.5vw, 24rem);
   background-color: var(--dark-grey);
   text-align: center;
   border-radius: .75rem;
